@@ -49,11 +49,11 @@
 | [ld-chat-module](modules/ld-chat-module.md) | STOMP 실시간 채팅 (E2EE, 채널 권한) | 사주J · Provio |
 | [payment-module](modules/payment-module.md) | 결제 (KCP·토스·웰컴 PG 통합) | 사주J · forme |
 | [ld-jwt-member-module](modules/ld-jwt-member-module.md) | 회원 인증 (JWT, 일반·소셜·연동) | 다수 서비스 |
-| ld-utils-module | 공통 응답·예외처리·암호화·라이선스 게이트 | 전 서비스 공통 |
-| ld-membership-module | 멤버십·등급 관리 | — |
-| ld-order-module | 주문 워크플로 | — |
-| ld-message-module | 쪽지·메시지 (암호화) | — |
-| ld-verification-module | 상태머신 기반 검증 플로우 | — |
+| [ld-utils-module](modules/ld-utils-module.md) | 공통 응답·예외처리·암호화·라이선스 게이트 | 전 서비스 공통 |
+| [ld-membership-module](modules/ld-membership-module.md) | 멤버십·등급 관리 | — |
+| [ld-order-module](modules/ld-order-module.md) | 주문 워크플로 | — |
+| [ld-message-module](modules/ld-message-module.md) | 쪽지·메시지 (암호화) | — |
+| [ld-verification-module](modules/ld-verification-module.md) | 상태머신 기반 검증 플로우 | — |
 
 ### 전체 모듈 (Full Catalog)
 
