@@ -1,7 +1,22 @@
-# 로동 공유 모듈 플랫폼 (LODONG Shared Module Platform)
+<div align="center">
 
-> A production-proven, versioned library platform that lets a small team operate many live services.
-> 소수의 팀이 다수의 실서비스를 안정적으로 운영하는 비결 — 검증된 공유 모듈 생태계입니다.
+# 로동 공유 모듈 플랫폼
+### LODONG Shared Module Platform
+
+![Founded](https://img.shields.io/badge/Founded-2015-6f42c1?style=flat-square)
+![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4-6db33f?style=flat-square)
+![License](https://img.shields.io/badge/license-commercial-blue?style=flat-square)
+
+**소수의 팀이 다수의 실서비스를 안정적으로 운영하는 비결 — 검증된 공유 모듈 생태계.**
+
+*A production-proven, versioned library platform behind multiple live services.*
+
+[🌐 lodong.co.kr](https://lodong.co.kr) · [🏠 lodong-co](https://github.com/lodong-co) · ✉️ cyj@lodong.co.kr
+
+</div>
+
+---
 
 (주)로동은 2015년 창업 이래 10년 이상 축적한 운영 경험을 바탕으로, 인증·결제·실시간 채팅 등 **반복되는 핵심 기능을 재사용 가능한 모듈로 표준화**했습니다. 이 모듈들은 사주J·Provio·forme 등 **실제 운영 중인 서비스에서 라이브로 검증**되고 있습니다.
 
