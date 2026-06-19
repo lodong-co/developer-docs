@@ -38,18 +38,43 @@
 
 ## 모듈 카탈로그
 
+**20여 개의 공유 모듈**을 독립 버전으로 관리·배포합니다. 인증·결제부터 실시간·커머스·콘텐츠까지, 서비스 구축에 반복되는 기능 대부분을 모듈로 표준화했습니다.
+
+### 핵심 모듈 (Featured)
+
+실서비스에서 검증된 대표 모듈입니다.
+
 | 모듈 | 역할 | 실운영 |
 |---|---|---|
 | [ld-chat-module](modules/ld-chat-module.md) | STOMP 실시간 채팅 (E2EE, 채널 권한) | 사주J · Provio |
 | [payment-module](modules/payment-module.md) | 결제 (KCP·토스·웰컴 PG 통합) | 사주J · forme |
 | [ld-jwt-member-module](modules/ld-jwt-member-module.md) | 회원 인증 (JWT, 일반·소셜·연동) | 다수 서비스 |
 | ld-utils-module | 공통 응답·예외처리·암호화·라이선스 게이트 | 전 서비스 공통 |
+| ld-membership-module | 멤버십·등급 관리 | — |
 | ld-order-module | 주문 워크플로 | — |
 | ld-message-module | 쪽지·메시지 (암호화) | — |
 | ld-verification-module | 상태머신 기반 검증 플로우 | — |
 
-> 위 모듈 외에도 게시판·장바구니·알림·푸시 등 부가 기능 모듈을 운영합니다.
-> 각 모듈은 독립 버전 관리되며, 실서비스 검증을 거친 항목 위주로 소개합니다.
+### 전체 모듈 (Full Catalog)
+
+도메인별 전체 모듈입니다.
+
+**🔐 인증 · 회원**
+`ld-jwt-member-module` 회원 인증(일반·소셜·연동) · `ld-membership-module` 멤버십·등급
+
+**💳 결제 · 커머스**
+`payment-module` PG 결제 통합 · `submerchant-module` 하위상점(서브몰) 등록 · `ld-order-module` 주문 · `ld-product-module` 상품 · `ld-cart-module` 장바구니 · `ld-category-module` 카테고리
+
+**⚡ 실시간 · 알림**
+`ld-chat-module` 실시간 채팅(E2EE) · `ld-message-module` 쪽지·메시지 · `ld-notification-module` 알림 · `ld-push-module` 푸시
+
+**📋 콘텐츠 · 운영**
+`ld-board-module` 게시판 · `ld-comment-module` 댓글 · `ld-notice-module` 공지 · `ld-faq-module` FAQ · `ld-inquiry-module` 문의 · `ld-feedback-module` 피드백
+
+**🧰 공통 · 인프라**
+`ld-utils-module` 공통 응답·예외·암호화·라이선스 게이트 · `ld-file-module` 파일 관리 · `ld-verification-module` 상태머신 검증
+
+> 각 모듈은 독립 버전으로 관리·배포되며, 난독화 바이너리 + 라이선스로 제공됩니다.
 
 ---
 
@@ -62,7 +87,7 @@
 - **보안 우선(fail-fast)** — 키·인증서 등 필수 비밀이 없으면 **조용히 넘어가지 않고 기동을 중단**합니다.
 - **검증된 경로는 테스트로 증명** — 인증·결제·금액·상태전이·암호화 등 핵심 경로는 테스트로 검증.
 
-> 주요 아키텍처 결정은 [Architecture Decision Records](adr/)에 기록합니다.
+> **케이스 스터디** — [HRDLMS · 5만+ 동시접속 무중단 운영 아키텍처](case-studies/hrdlms.md)
 
 ---
 
