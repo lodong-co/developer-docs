@@ -98,9 +98,17 @@
 - **보안 우선(fail-fast)** — 키·인증서 등 필수 비밀이 없으면 **조용히 넘어가지 않고 기동을 중단**합니다.
 - **검증된 경로는 테스트로 증명** — 인증·결제·금액·상태전이·암호화 등 핵심 경로는 테스트로 검증.
 
-> **케이스 스터디**
-> - [HRDLMS · 5만+ 동시접속 무중단 운영 아키텍처](case-studies/hrdlms.md)
-> - [크래쉬인 · 무인 매장 통합 시스템 (예약·결제·IoT 도어락·키오스크)](case-studies/crashin-unmanned-store.md)
+## 📂 케이스 스터디 (Case Studies)
+
+서로 다른 도메인의 실제 구축 사례 — 웹부터 **IoT · 하드웨어 · 클라우드 · AI**까지.
+
+| 사례 | 도메인 | 핵심 |
+|---|---|---|
+| [HRDLMS](case-studies/hrdlms.md) | 교육 · 고가용성 | 5만+ 동시접속 무중단 (네트워크·서버 이중화 + 로드밸런싱) |
+| [크래쉬인 무인매장](case-studies/crashin-unmanned-store.md) | IoT · 무인매장 | 예약·결제·도어락·키오스크 통합, 오프라인 내성 |
+| [강촌 포토키오스크](case-studies/gangchon-photo-kiosk.md) | 하드웨어 | 전문 포토프린터 제어 + 결제 (무인 인화) |
+| [에그호스팅](case-studies/egg-hosting-platform.md) | 클라우드 인프라 | Rust 에이전트 기반 자체 호스팅 컨트롤 플레인 |
+| [사주J](case-studies/sajuj-ai-saju.md) | AI · 자체제품 | 결정론 엔진 + LLM 하이브리드, 실시간·결제 |
 
 ---
 
