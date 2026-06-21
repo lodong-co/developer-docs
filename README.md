@@ -110,6 +110,7 @@
 | [무인 스토리지](case-studies/smart-locker-lora.md) | IoT · 하드웨어 제조 | 자체 제작 사물함 + LoRa 무선 + 앱 원격 개폐 |
 | [에그호스팅](case-studies/egg-hosting-platform.md) | 클라우드 인프라 | Rust 에이전트 기반 자체 호스팅 컨트롤 플레인 |
 | [사주J](case-studies/sajuj-ai-saju.md) | AI · 자체제품 | 결정론 엔진 + LLM 하이브리드, 실시간·결제 |
+| [콕컷](case-studies/kokcut-dev-column.md) | 콘텐츠 · SEO/GEO · 자체제품 | 재사용 모듈 조립 + 발행→SEO·다중엔진 색인 자동화 |
 
 ---
 
