@@ -54,6 +54,8 @@
 | [ld-order-module](modules/ld-order-module.md) | 주문 워크플로 | — |
 | [ld-message-module](modules/ld-message-module.md) | 쪽지·메시지 (암호화) | — |
 | [ld-verification-module](modules/ld-verification-module.md) | 상태머신 기반 검증 플로우 | — |
+| [ld-article-module](modules/ld-article-module.md) | 글·뉴스 콘텐츠 (발행 · 봇 제외 조회수) | 콕컷 |
+| [ld-seo-module](modules/ld-seo-module.md) | SEO·색인 자동화 (메타 · sitemap · IndexNow) | 콕컷 |
 
 ### 전체 모듈 (Full Catalog)
 
@@ -69,7 +71,10 @@
 `ld-chat-module` 실시간 채팅(E2EE) · `ld-message-module` 쪽지·메시지 · `ld-notification-module` 알림 · `ld-push-module` 푸시
 
 **📋 콘텐츠 · 운영**
-`ld-board-module` 게시판 · `ld-comment-module` 댓글 · `ld-notice-module` 공지 · `ld-faq-module` FAQ · `ld-inquiry-module` 문의 · `ld-feedback-module` 피드백
+`ld-article-module` 글·뉴스/칼럼(발행·봇제외 조회수) · `ld-board-module` 게시판 · `ld-comment-module` 댓글 · `ld-notice-module` 공지 · `ld-faq-module` FAQ · `ld-inquiry-module` 문의 · `ld-feedback-module` 피드백
+
+**📈 SEO · 노출**
+`ld-seo-module` 메타·구조화데이터·sitemap·RSS·색인(IndexNow) 자동화 — 검색엔진 + 생성형 AI(GEO)
 
 **📄 문서 · AI**
 `ld-ocr-module` OCR 문서 인식
